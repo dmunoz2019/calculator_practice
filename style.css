@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.calculator {
+    background: linear-gradient(45deg, #13ec36, #5698f1);
+}
+
+#display {
+    width: 100%;
+    height: 100px;
+    background: #fff;
+    text-align: right;
+    padding: 10px;
+    font-size: 40px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 25%;
+    height: 60px;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #fff;
+    transition: 0.3s;
+    margin: 2.05vh;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.numbers{width: 50%;}
+
+.operators {width: 50%;}
+
+
+div .pad {
+    display: flex;
+
+}
+
